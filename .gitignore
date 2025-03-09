@@ -1,0 +1,26 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# Gradle
+.gradle/
+build/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Node.js
+node_modules/
+**/node_modules/
+npm-debug.log
+yarn-error.log
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
+*.log
+target/
+out/
+
+# Exclude submodule's .git directories
+**/.git/modules/
