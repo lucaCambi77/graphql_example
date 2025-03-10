@@ -3,12 +3,6 @@
 *.iml
 *.iws
 
-# Gradle
-.gradle/
-build/
-**/build/
-!gradle/wrapper/gradle-wrapper.jar
-
 # Node.js
 node_modules/
 **/node_modules/
