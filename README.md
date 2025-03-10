@@ -4,15 +4,19 @@
 
 - Nodejs
 
-## Start the application
+## Build the application
 
 - `npm install`
+
+## Start the application
+
 - `node index.js`
+
+This will start an Apollo server at http://localhost:4000
 
 ## Data Model and Apollo
 
-We create two different express server to simulate different databases using in memory structures
-for posts and comments of a social like application example.
+We create two different express server to simulate different databases using in memory posts and comments of a social-like application example.
 
 Posts example:
 
