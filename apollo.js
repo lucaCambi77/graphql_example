@@ -23,7 +23,7 @@ const resolvers = {
     }
 };
 
-// Define your GraphQL schema
+// Define your GraphQL schema (SDL)
 const typeDefs = gql`
   type Post {
     id: Int
