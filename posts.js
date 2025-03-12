@@ -34,4 +34,4 @@ const postComments = [
     }
 ]
 
-module.exports = {posts, postComments};
+module.exports = {posts, postComments}

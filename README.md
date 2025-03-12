@@ -18,7 +18,7 @@ This will start an Apollo server at http://localhost:4000
 
 We create two different express server to simulate different databases using in memory posts and comments of a social-like application example.
 
-Posts example:
+Post example:
 
 ```json
 {
@@ -27,7 +27,7 @@ Posts example:
 }
 ```
 
-Comments example:
+Comment example:
 
 ```json
 {
@@ -54,3 +54,10 @@ query GetPosts {
 ```
 
 This works by defining `types` and `resolvers` in the graphql schema, [view the apollo file](./apollo.js)
+
+## Different approaches
+
+The Post entity has a reference to the comment id(s) while Comment keeps a reference to the post id(s). Therefore, there are 2 different approaches to query the data:
+
+1) Resolve the comments by the comment ids of the post
+2) Resolve the comments by the post id (This would also allow, in theory, not to store the comment ids for a Post)
